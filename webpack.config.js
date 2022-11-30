@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: "https://SantiSB.github.io/E-Commerce/#"
+    publicPath: "/E-Commerce/"
   },
   resolve: {
     extensions: ['.js', '.jsx'],
