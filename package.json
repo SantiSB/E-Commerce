@@ -11,7 +11,7 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -69,7 +69,7 @@
   "bugs": {
     "url": "https://github.com/SantiSB/E-Commerce/issues"
   },
-  
+  "homepage": "https://SantiSB.github.io/E-Commerce/#",
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
