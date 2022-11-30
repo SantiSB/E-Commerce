@@ -69,7 +69,7 @@
   "bugs": {
     "url": "https://github.com/SantiSB/E-Commerce/issues"
   },
-  "homepage": "https://SantiSB.github.io/E-Commerce/#",
+  
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
