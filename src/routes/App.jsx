@@ -1,0 +1,20 @@
+import React from 'react';
+import { HashRouter, Switch, Route } from 'react-router-dom';
+import Home from '../containers/Home';
+import Checkout from '../containers/Checkout';
+import Layout from '../components/Layout';
+import NotFound from '../containers/NotFound';
+
+const App = () => (
+  <HashRouter>
+    <Layout>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/checkout" component={Checkout} />
+        <Route component={NotFound} />
+      </Switch>
+    </Layout>
+  </HashRouter>
+);
+
+export default App;
