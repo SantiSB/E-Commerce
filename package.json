@@ -13,10 +13,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SantiSB/E-Commerce.git"
-  },
+  
   "keywords": [
     "React",
     "Webpack",
@@ -66,10 +63,8 @@
     "react-test-renderer": "^16.14.0",
     "webpack-dev-server": "^3.9.0"
   },
-  "bugs": {
-    "url": "https://github.com/SantiSB/E-Commerce/issues"
-  },
-  "homepage": "https://SantiSB.github.io/E-Commerce/#",
+  
+  "homepage": "https://SantiSB.github.io/E-Commerce/",
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"

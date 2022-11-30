@@ -7,7 +7,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: "\E-Commerce\public\index.html/"
+    publicPath: "/E-Commerce/"
   },
   resolve: {
     extensions: ['.js', '.jsx'],
