@@ -1,13 +1,13 @@
 const path = require('path');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+var GhPagesWebpackPlugin = require('gh-pages-webpack-plugin');
 
 module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: "/E-Commerce/public/"
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -52,5 +52,15 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: 'assets/[name].css',
     }),
+    new GhPagesWebpackPlugin({
+      path: './public',
+      options: {
+          message: 'Update Page',
+          user: {
+              name: 'Santiago',
+              email: 'a.santiago.salas.b@gmail.com'
+          }
+      }
+  })
   ],
 };
