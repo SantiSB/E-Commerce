@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from '../containers/Home';
 import Checkout from '../containers/Checkout';
 import Layout from '../components/Layout';
 import NotFound from '../containers/NotFound';
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <Layout>
       <Switch>
         <Route exact path="/" component={Home} />
@@ -14,7 +14,7 @@ const App = () => (
         <Route component={NotFound} />
       </Switch>
     </Layout>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;

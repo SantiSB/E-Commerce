@@ -66,7 +66,7 @@
     "type": "git",
     "url": "git+https://github.com/SantiSB/E-Commerce.git"
   },
-  "homepage": "https://SantiSB.github.io/E-Commerce/",
+  "homepage": "https://SantiSB.github.io/E-Commerce/#",
   "jest": {
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
